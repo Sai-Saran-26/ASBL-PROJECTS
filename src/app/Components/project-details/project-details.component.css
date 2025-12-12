@@ -1,5 +1,5 @@
 .details-box{
-    width: 94vw;
+    width: 98vw;
     height: 60vh;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 .left{
-    flex: 0 0 40%;
+    flex: 0 0 45%;
 }
 .bg {
     width: 100%;
