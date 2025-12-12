@@ -1,0 +1,21 @@
+.projects-section {
+    width:94vw;
+    height:30vh;
+    margin-top: 30px;
+    /* background: rgb(254, 207, 207); */
+    padding: 20px;
+    border-radius: 16px;
+}
+.scroll-wrapper {
+    display: flex;
+    gap: 5vw;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+  

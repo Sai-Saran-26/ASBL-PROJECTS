@@ -1,0 +1,9 @@
+<div class="projects-section">
+  <div #scrollContainer class="scroll-wrapper">
+    <app-card
+      *ngFor="let p of projects"
+      [project]="p"
+      (click)="onSelect(p)">
+    </app-card>
+  </div>
+</div>
