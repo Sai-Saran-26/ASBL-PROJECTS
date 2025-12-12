@@ -28,7 +28,7 @@
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
     font-family: "Poppins", sans-serif;
@@ -42,7 +42,7 @@
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
     font-family: "Poppins", sans-serif;
@@ -55,7 +55,7 @@
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
     font-style: italic;
