@@ -1,21 +1,63 @@
 .projects-section {
-    width:98vw;
-    height:40vh;
-    margin-top: 30px;
-    /* background: rgb(254, 207, 207); */
-    padding: 20px;
-    border-radius: 16px;
+    width: 98vw;
+    max-width: 87.5rem;
+    height: auto;
+    min-height: 40vh;
+    margin: 1.8rem auto 0;
+    padding: 1.2rem;
+    border-radius: 1rem;
 }
+
 .scroll-wrapper {
     display: flex;
     gap: 5vw;
     overflow-x: auto;
-    padding-bottom: 10px;
+    padding-bottom: 0.6rem;
     scroll-behavior: smooth;
     scrollbar-width: none; /* Hide scrollbar in Firefox */
+    align-items: stretch;
 }
 
 .scroll-wrapper::-webkit-scrollbar {
     display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+/* Laptops (1024px) */
+@media (min-width: 1024px) {
+    .projects-section {
+        width: 96vw;
+        padding: 1.5rem;
+    }
+    
+    .scroll-wrapper {
+        gap: 4vw;
+    }
+}
+
+/* Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .projects-section {
+        width: 95vw;
+        padding: 1.2rem;
+        margin-top: 1.5rem;
+    }
+    
+    .scroll-wrapper {
+        gap: 4vw;
+    }
+}
+
+/* Mobile Phones (below 768px) */
+@media (max-width: 767px) {
+    .projects-section {
+        width: 95vw;
+        padding: 0.9rem;
+        margin-top: 1.2rem;
+    }
+    
+    .scroll-wrapper {
+        gap: 4vw;
+        align-items: stretch;
+    }
 }
   
